@@ -8,8 +8,6 @@ from pyrogram.types import Message
 from resources.data import *
 
 
-#DELAYSPAM
-
 @Client.on_message(filters.user(SUDOERS) & filters.command(["delayspam"], [",", ".", "!", "/", "+", "?"]))
 async def delayspam(app: Client, m:Message):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam [sleep time] [count] [message to spam] \n\n.delayspam [sleep time] [count] [reply to a message]\n\nCount and Sleeptime must be a integer."     
