@@ -37,6 +37,6 @@ if bot10:
     bot10.start()
     bot10.join_chat("deadly_spambot")
 
-print("Your DeadlySpam Userbot Deployed Successfully 🥳 Please visit @deadly_spam_bot for any help!") 
+print("Your UserSpam Userbot Deployed Successfully 🥳 Please visit @suman333mondal for any help!") 
 
 idle()
