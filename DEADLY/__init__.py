@@ -19,7 +19,7 @@ from config import *
 if ALIVE_PIC:
     ALIVE_PIC = ALIVE_PIC
 else: 
-    ALIVE_PIC = "https://te.legra.ph/file/1708946d4d11f914761f2.jpg"
+    ALIVE_PIC = "https://te.legra.ph/file/573f410c724808950c4d7.jpg"
 
 if not STRING1:
     logging.error("At least 1 string is required! Exiting!")
